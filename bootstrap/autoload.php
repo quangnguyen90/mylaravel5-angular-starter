@@ -1,4 +1,6 @@
 <?php
+// Allow max nesting level up to 500 function
+ini_set('xdebug.max_nesting_level', 500);
 
 define('LARAVEL_START', microtime(true));
 
